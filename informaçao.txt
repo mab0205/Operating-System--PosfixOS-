@@ -1,0 +1,15 @@
+integrantes da equipe:
+-Martín Ávila Buitrón
+
+A logica utilizada no codigo foi a seguente:
+Utilizar identificadores sendo (-1 == +),(-2 == -),(-3 == *),(-4 == /), para desenvolver a 
+calculadora Polonesa Inversa. O multithread foi feito utilizando filas, pilas e uma matriz aux.
+Onde a matriz recebe as operaçoes do usuario e troca eles por os identificadores.
+Depois com a matriz pronta, se armazena cada operacoao em um vetor de filas. 
+Assim cada elemento dentro do fila se desempilha e se verica se e um identificador, senao se
+armazena dentro de um vetor de pilhas.  
+
+Bugs
+-O programa nao pode receber por entrada numeros negativos.
+-O programa nao pode receber por entrada dois ou mais simbolos na mesma entrada(11, 2, 3, ++, ----, /*-).
+
